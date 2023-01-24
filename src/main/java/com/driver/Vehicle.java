@@ -20,20 +20,20 @@ public class Vehicle {
         this.name = name;
     }
 
-    public void setCurrentDirection(int currentDirection) {
-        this.currentDirection = currentDirection;
-    }
-
-    public int getCurrentDirection() {
-        return currentDirection;
-    }
-
     public int getCurrentSpeed() {
         return currentSpeed;
     }
 
     public void setCurrentSpeed(int currentSpeed) {
         this.currentSpeed = currentSpeed;
+    }
+
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
     }
 
     public void steer(int direction){
